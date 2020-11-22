@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="elemendidDovzenokD.Picker">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="header" Text="Машины" FontSize="Large" />
+            <Picker x:Name="picker" SelectedIndexChanged="picker_SelectedIndexChanged">
+                <Picker.Items>
+                    <x:String>Audi</x:String>
+                    <x:String>BMW</x:String>
+                    <x:String>Bentley</x:String>
+                    <x:String>Aston Martin</x:String>
+                    <x:String>Dacia</x:String>
+                    <x:String>Dodge</x:String>
+                    <x:String>Jeep</x:String>
+                    <x:String>IVECO</x:String>
+                    <x:String>Mazda</x:String>
+                    <x:String>Opel</x:String>
+
+                </Picker.Items>
+            </Picker>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
